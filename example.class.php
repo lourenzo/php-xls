@@ -1,5 +1,7 @@
 <?php
+include 'xls.class.inc';
 
+$xlsDoc = new xlsDocument('inscritos');
 
 $header = array('Product','Price');
 
@@ -8,5 +10,4 @@ $lines = array(
   array('Carro', '15 mil')
 );
 
-xlsDoc('inscritos',$header,$lines);
-die();
+$xlsDoc->output($header, $lines);

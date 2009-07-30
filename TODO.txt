@@ -1,0 +1,6 @@
+Todo:
+	* Finish class library
+	* Deprecate/remove function library
+	* Use numbers instead of only labels
+	* Allow multiple spreadsheets on documents
+	* Improve examples
