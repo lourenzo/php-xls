@@ -1,7 +1,7 @@
 <?php
 
 /**
- * XSL Write Library - Version 0.1
+ * @file XLS Write Function Library - Version 0.1
  * @author Lourenzo Ferreira
  */
 
@@ -15,7 +15,7 @@ function xlsBOF() {
 } 
 
 /**
- * The start of a XLS file 
+ * The end of a XLS file 
  *
  * @return void
  */
